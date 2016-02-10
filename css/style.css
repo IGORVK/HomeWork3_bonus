@@ -1,0 +1,103 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #D2D2D2;
+}
+
+#wrapper {
+	width: 960px;
+	height: 883px;
+	margin: 0 auto;
+	background-color: #000;
+	background-image: url("../img/bg.jpg");
+}
+
+.img-top, .img-bottom {
+	width: 270px;
+	height:250px;
+	font: 14px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.img-top a, .img-bottom a {
+	color: #D2D2D2;
+	text-decoration: none;
+}
+
+
+/* HEADER */
+.header {
+	position: relative;
+	height: 200px;
+	background: 
+	     url("../img/logo.png") no-repeat  70px 128px,
+	     url("../img/palm-tree.png") no-repeat  212px 54px;
+}
+
+.header ul {
+	position: absolute;
+	top: 149px;
+	left: 786px;
+	list-style-type: none;
+	font: 9px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.header ul li:first-child {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/* CONTENT */
+div.content p {
+	text-align: center;
+}
+
+/* BLOCK LEFT */
+.left {
+	float: left;
+	margin-left: 70px;
+	width: 270px;
+	height: 500px;
+}
+
+
+/* BLOCK CENTER */
+.center {
+	float: left;
+	margin-left: 8px;
+	width: 270px;
+	height: 500px;
+}
+
+/* BLOCK RIGHT */
+.right {
+	margin-left: 8px;
+	width: 270px;
+	height: 500px;
+	float: left;
+}
+
+
+
+/* END CONTENT */
+.clear {
+	clear: both;
+}
+
+/* FOOTER */
+.footer {
+	position:relative;
+	height: 200px;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.footer a {
+	position: absolute;
+	top: 134px; 
+    left: 404px; 
+  	display: block;
+	color: #D2D2D2;
+	text-decoration: none;
+}
